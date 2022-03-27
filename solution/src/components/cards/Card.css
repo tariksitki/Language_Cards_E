@@ -10,7 +10,6 @@
     grid-template-rows: 10% 90%;
     grid-template-areas: "top" "bottom";
     overflow: hidden;
-
 }
 
 /* transform(skewY) kullandım ben */
@@ -22,19 +21,16 @@
     position: relative;
     transform: rotate(-45deg);
     top: -40rem;
-    left: 10rem;
-    
+    left: 10rem; 
 }
 
-
-.language.title {
+.language-title {
     grid-area: top;
     text-align: center;
     color: white;
     font-weight: bold;
     font-size: 2rem;
     margin-top: 1rem;
-
 }
 
 .cards-container {

@@ -3,6 +3,7 @@ import "./Item.css";
 import {useState} from "react";
 
 const Item = ({card}) => {
+    console.log(card);
     // props.card da olur
     const [showLogo, setShowLogo] = useState(true);
 
